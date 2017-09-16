@@ -1,0 +1,19 @@
+{
+  "name": "pannellum_cmod",
+  "homepage": "https://github.com/campbellhennessy/pannellum",
+  "authors": [
+    "Campbell"
+  ],
+  "description": "Mainly Pannellum but with some minor changes for a specific application I am working on",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples"
+  ]
+}
