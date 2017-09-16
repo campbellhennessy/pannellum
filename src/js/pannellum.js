@@ -102,6 +102,7 @@ var defaultConfig = {
     animationTimingFunction: timingFunction,
     loadButtonLabel: 'Click to\nLoad\nPanorama',
     draggable: true,
+    titleKey: 'title'
 };
 
 var usedKeyNumbers = [16, 17, 27, 37, 38, 39, 40, 61, 65, 68, 83, 87, 107, 109, 173, 187, 189];
@@ -1866,7 +1867,7 @@ function processOptions(isPreview) {
     for (var key in config) {
       if (config.hasOwnProperty(key)) {
         switch(key) {
-            case 'title':
+            case config.titleKey:
                 infoDisplay.title.innerHTML = escapeHTML(config[key]);
                 infoDisplay.container.style.display = 'inline';
                 break;
