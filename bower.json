@@ -5,7 +5,7 @@
     "Campbell"
   ],
   "description": "Mainly Pannellum but with some minor changes for a specific application I am working on",
-  "main": "",
+  "main": ["src/js/libpannellum.js", "src/js/pannellum.js", "src/css/pannellum.css"],
   "license": "MIT",
   "private": true,
   "ignore": [
