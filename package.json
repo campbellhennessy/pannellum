@@ -19,5 +19,6 @@
   "keywords": [
     "panorama",
     "viewer"
-  ]
+  ],
+  "files": ["src/*"]
 }
