@@ -20,5 +20,5 @@
     "panorama",
     "viewer"
   ],
-  "files": ["src/*"]
+  "files": ["./src/"]
 }
