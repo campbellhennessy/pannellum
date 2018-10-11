@@ -9,6 +9,7 @@
     "name": "Campbell"
   },
   "license": "MIT",
+  "homepage": "https://pannellum.org/",
   "main": "build/pannellum.js",
   "keywords": [
     "panorama",
